@@ -1,0 +1,10 @@
+.sidebar {
+  flex: 0.33;
+  padding: 25px 10px;
+}
+
+@media screen and (max-width: 425px) and (min-width: 300px) {
+  .sidebar {
+    padding: 0px;
+  }
+}

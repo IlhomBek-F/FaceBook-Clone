@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #f1f2f5;
+}
+
+.app__body {
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  color: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e81f4;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: blue;
+}
+
+@media screen and (max-width: 425px) and (min-width: 300px) {
+  .App {
+    background-color: #fff;
+  }
+
+  .link {
+    text-decoration: none;
+    color: none;
+  }
+}

@@ -1,0 +1,41 @@
+.card__image__group {
+  width: 765px;
+  height: 400px;
+}
+
+.card__image__group img {
+  width: 100%;
+  height: 100%;
+}
+
+.group__card {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 765px;
+  box-shadow: 0px 0px 10px 0px grey;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card__info__group {
+  padding: 13px;
+}
+.card__info__group h1 {
+  font-size: 17px;
+}
+
+.card__info__group button {
+  width: 100%;
+  margin-top: 26px;
+  font-size: 25px;
+  padding: 7px 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #d8dde2;
+}
+
+.card__info__group button:hover {
+  background-color: #b3bec8;
+}

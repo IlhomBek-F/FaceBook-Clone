@@ -1,0 +1,19 @@
+.group__list {
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+  padding: 30px 70px;
+}
+
+.recommend__group {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.re__item h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: grey;
+  padding-top: 10px;
+}

@@ -1,0 +1,22 @@
+.feed {
+  flex: 0.44;
+  padding: 30px 15px;
+  padding-left: 140px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 425px) and (min-width: 300px) {
+  .feed {
+    flex: 1;
+    padding: 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,216 @@
+.pop {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.popup__res {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.popup__none {
+  display: none;
+}
+
+.header__popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  background-color: lightgrey;
+
+  transition: all 0.8s ease-in-out;
+}
+
+.none__header {
+  top: -150px;
+
+  transition: all 0.8s ease-in-out;
+}
+.header__popup button {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  color: rgb(55, 55, 245);
+}
+
+.header__popup p {
+  font-weight: bolder;
+}
+
+.header__popup button:active {
+  box-shadow: 0px 0px 10px 0px white;
+}
+
+.active__post {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.424);
+  transition: all 0.8s ease-in-out;
+}
+
+.cancel__item {
+  position: absolute;
+
+  width: 100%;
+
+  justify-content: center;
+  flex-direction: column;
+  bottom: -450px;
+  transition: all 1s ease-in-out;
+  left: 0;
+  background-color: transparent;
+  transition: all 0.8s ease-in-out;
+}
+
+.active__item {
+  position: absolute;
+
+  width: 100%;
+
+  justify-content: center;
+  flex-direction: column;
+  bottom: 10px;
+  transition: all 0.8s ease-in-out;
+}
+
+.cancel__button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 0px 10px;
+  margin-right: 10px;
+}
+
+.cancel__button button {
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 0px;
+  border-radius: 5px;
+  color: red;
+}
+
+.go__back {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.go__back button {
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 0px;
+  border-radius: 5px;
+  color: green;
+}
+
+/*    POST USER   */
+
+.post__user {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  padding-top: 15px;
+}
+.post__user__info {
+  margin-left: 10px;
+}
+.post__user__info h2 {
+  font-size: 17px;
+}
+.post__user__btn {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.post__btn {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.post__btn > .MuiSvgIcon-root {
+  font-size: 14px !important;
+}
+
+.post__btn h5 {
+  margin: 0px 3px;
+}
+
+/*   Add to your post */
+
+.add__to__your__post {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  padding: 10px;
+}
+.add__post__icon {
+  display: flex;
+}
+.post__add {
+  font-size: 30px !important;
+  margin: 0px 4px;
+}
+
+/*   FORM POST TEXTAREA */
+.post__textarea {
+  border: none;
+  resize: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  outline: none;
+  width: 100%;
+  height: 200px;
+}
+
+.photo__area {
+  border: none;
+  resize: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  outline: none;
+  width: 100%;
+  height: 100px;
+}
+/*  Photo POST */
+
+.post__photo {
+  position: relative;
+  width: 100%;
+}
+
+.post__photo img {
+  width: 100%;
+  height: 200px;
+}
+
+.post__photo__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}

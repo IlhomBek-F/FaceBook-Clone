@@ -1,0 +1,27 @@
+.profile__app {
+  background-color: rgb(238, 238, 238);
+  height: 100%;
+}
+
+.profile__div {
+  display: flex;
+  align-items: center;
+  padding: 9px 8px;
+  margin: 14px 15px;
+}
+.profile {
+  padding-bottom: 30px;
+}
+.profile__div:last-child {
+  margin-bottom: 0px;
+}
+
+.profile__div h4 {
+  padding-left: 10px;
+}
+
+.profile__div:hover {
+  background-color: rgb(224, 224, 224);
+  cursor: pointer;
+  border-radius: 5px;
+}
